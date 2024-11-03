@@ -1,0 +1,24 @@
+.pemesanan{
+    margin: 20px;
+}
+
+.pemesanan ol {
+    padding-left: 25px;
+}
+
+.pemesanan ol li {
+    font-size: small;
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.pemesanan ol li p{
+    line-height: 1.5;
+    font-size: 10pt;
+}
+.pemesanan h3{
+    margin: 0 0 20px;
+}
+.pemesanan img{
+    margin: 0 60px 25px;
+}

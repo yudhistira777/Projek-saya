@@ -1,0 +1,11 @@
+
+.pemesanan img{
+    margin: 20px 40px 40px 40px;
+}
+.pemesanan p{
+    color: #555555;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-left: 40px;
+}

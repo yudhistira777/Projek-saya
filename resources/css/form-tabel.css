@@ -1,0 +1,145 @@
+main form {
+  width: 550px;
+}
+
+main table {
+  width: 100%;
+}
+
+main form th {
+  text-align: right;
+  vertical-align: top;
+	width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+main form td {
+  width: calc(100% - 150px);
+  padding: 10px;
+}
+
+main form label {
+  font-size: 9.5pt;
+  font-weight: normal;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+main form select {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #8f8f9d;
+  padding: 11px 10px;
+  font-size: 9.5pt;
+  box-sizing: border-box;
+}
+
+main form input:not(input[type="radio"]), .field {
+  width: 100%;
+  padding: 10px;
+  font-size: 9.5pt;
+  box-sizing: border-box;
+}
+
+main form input[type="file"], .field, .field-area {
+  border: 1px solid #8f8f9d;
+}
+
+main form input[type="radio"] + label {
+  margin-right: 20px;
+}
+
+main form textarea, .field-area {
+  width: 100%;
+  min-height: 140px;
+	padding: 10px;
+  font-size: 9.5pt;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+main .img-wrapper {
+  width: 100%;
+  border: 1px solid #8f8f9d;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+main .img-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+main .btn {
+  background-color: #ffbb54; 
+  padding: 8px 16px;
+  color: white; 
+  border: none;
+  text-decoration: none;
+  float: left;
+  font-size: 9.5pt;
+  margin: 10px 25px 10px 0;
+  transition: 0.3s ease;
+}
+
+main .btn.red {
+  background-color: #ff7354;
+}
+
+main .btn:hover {
+  cursor: pointer;
+  background-color: #ffa928;
+}
+
+main .btn.red:hover {
+  background-color: #ff5934;
+}
+
+.field, .field-area {
+  line-height: 18px;
+  background-color: #fbfbfb;
+  word-break: break-word;
+}
+
+.field-area {
+  white-space: pre-wrap;
+}
+
+.field a {
+  color: royalblue;;
+  text-decoration: none;
+}
+
+.field a:hover {
+  text-decoration: underline;
+}
+
+.icon-btn.upload-gambar {
+  margin: 4px 0;
+  float: left;
+}
+
+.icon-btn.unduh-file {
+  margin: 10px 25px 10px 0;
+  float: left;
+}
+
+.detail-pemesanan .info {
+  margin: 20px 15px 15px 15px;
+}
+
+.detail-pemesanan .info .history-title {
+  font-size: 10pt;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.detail-pemesanan ul {
+  margin-bottom: 60px;
+}
+
+.detail-pemesanan ul li {
+  margin-left: 20px;
+  padding-left: 5px;
+}

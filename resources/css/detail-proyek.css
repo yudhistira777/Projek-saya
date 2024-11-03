@@ -1,0 +1,135 @@
+.container {
+  width: 450px;
+  margin: 15px;
+}
+
+.container p, .detail-pemesanan p, .detail-pemesanan ul li {
+  font-size: 9.5pt;
+  line-height: 22px;
+  color: #555555;
+}
+
+.container hr, .detail-pemesanan hr {
+  border: none;
+  height: 1px;
+  background-color: #dddddd;
+  margin: 10px 0;
+}
+
+.container form {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+}
+
+.container form input[type="file"] {
+  display: block;
+  padding: 10px;
+  border: 1px solid #8f8f9d;
+  font-size: 9.5pt;
+  margin: 15px 0;
+}
+
+.container form .btn {
+  background-color: #ffbb54; 
+  padding: 8px 16px;
+  color: white; 
+  border: none;
+  text-decoration: none;
+  float: left;
+  font-size: 9.5pt;
+  margin: 10px 25px 0 0;
+  transition: 0.3s ease;
+}
+
+.container form .btn:hover {
+  cursor: pointer;
+  background-color: #ffa928;
+}
+
+.icon-btn {
+  display: inline-block;
+  height: 32px;
+  background-color: #ffbb54; 
+  padding: 0 16px 0 8px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.icon-btn i {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 2px;
+  margin-right: 5px;
+  float: left;
+}
+
+.icon-btn span {
+  font-size: 9.5pt;
+  line-height: 32px; 
+  float: left;
+}
+
+.icon-btn:hover {
+  background-color: #ffa928;
+}
+
+.icon-btn.wa-btn {
+  background-color: #18C218;
+  margin-top: 10px;
+}
+
+.icon-btn.wa-btn:hover {
+  background-color: #16af16;
+}
+
+.catatan {
+  margin: 15px 0;
+}
+
+#gambar-proyek {
+  display: contents;
+}
+
+#gambar-proyek img {
+  display: block;
+  max-width: 100%;
+  min-width: 300px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+
+#nama-proyek {
+  font-size: 11pt;
+  margin: 15px 0;
+  line-height: 25px;
+  word-break: break-word;
+}
+
+#id-proyek {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+#deskripsi {
+  margin: 15px 0 45px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+#permintaan {
+  width: 100%;
+  min-height: 140px;
+	padding: 10px;
+  font-size: 9.5pt;
+  resize: vertical;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+#harga {
+  color: #ffbb54;
+  font-size: 10pt;
+  font-weight: bold;
+}

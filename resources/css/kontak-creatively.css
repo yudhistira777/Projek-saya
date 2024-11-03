@@ -1,0 +1,36 @@
+
+.pemesanan img{
+    margin: 30px 0px 10px 100px;
+}
+.pemesanan h3{
+    margin: 30px 0px 20px 55px;
+}
+.box {
+    display: block;
+    font-size: small;
+    color: white;
+    padding: 8px 12px;
+    overflow: hidden;
+    margin: 10px 5px 15px 15px;
+    width: 400px;
+    text-decoration: none;
+}
+.box img {
+    margin-top: 2px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.box span {
+    float: left;
+    margin: 6px 10px 10px;
+}
+.instagram{
+    background-color: rgb(61, 30, 201);
+}
+.whatsapp{
+    background-color: rgb(23, 185, 23);
+}
+.email{
+    background-color: rgb(234, 22, 36);
+}
